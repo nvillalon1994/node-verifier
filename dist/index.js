@@ -17,7 +17,11 @@ app.get('/', (req, res) => {
 });
 app.get('/hello', (req, res) => {
     // Send HELLO WORD
-    res.send('Buenas');
+    res.send('Buena');
+});
+app.get('/ejercicio', (req, res) => {
+    // Send HELLO WORD
+    res.send("message: Goodbye, world");
 });
 //execute APP and listen Reques to Port
 app.listen(port, () => {

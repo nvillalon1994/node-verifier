@@ -18,7 +18,12 @@ app.get('/',(req:Request, res:Response) => {
 })
 app.get('/hello',(req:Request, res:Response) => {
     // Send HELLO WORD
-    res.send('Buenas')
+    res.send('Buena')
+})
+
+app.get('/ejercicio',(req:Request, res:Response) => {
+    // Send HELLO WORD
+    res.send("message: Goodbye, world")
 })
 
 
